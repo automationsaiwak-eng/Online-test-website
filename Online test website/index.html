@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online MCQs Testing Platform</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-graduation-cap me-2"></i>EduTest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item ms-lg-3"><a class="btn btn-outline-primary btn-sm" href="auth.html?mode=login">Login</a></li>
+                    <li class="nav-item ms-2"><a class="btn btn-primary btn-sm" href="auth.html?mode=signup">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center" style="min-height: 100vh; background: url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover; position: relative;">
+        <!-- Overlay -->
+        <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(255,255,255,0.9);"></div>
+        
+        <div class="container position-relative z-index-1">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Master Your Subject with <span class="text-gradient">Online MCQs</span></h1>
+                    <p class="lead text-muted mb-4">A powerful platform for students to practice, test, and analyze their performance. Access unlimited tests and get instant results.</p>
+                    <div class="d-flex gap-3">
+                        <a href="auth.html?mode=signup" class="btn btn-primary btn-lg"><i class="fas fa-play me-2"></i>Start Test</a>
+                        <a href="#features" class="btn btn-outline-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0 text-center">
+                    <img src="https://img.freepik.com/free-vector/online-test-concept-illustration_114360-1530.jpg" alt="Online Test" class="img-fluid rounded-4 shadow-lg" style="max-width: 80%;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase">Why Choose Us</h6>
+                <h2 class="fw-bold">Platform Features</h2>
+                <div class="mx-auto mt-3" style="width: 60px; height: 3px; background: var(--primary-color);"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-center">
+                        <div class="align-self-center mb-3 text-primary">
+                            <i class="fas fa-bolt fa-3x"></i>
+                        </div>
+                        <h4 class="card-title">Instant Results</h4>
+                        <p class="card-text text-muted">Get your score immediately after finishing the test. No waiting time needed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-center">
+                        <div class="align-self-center mb-3 text-primary">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h4 class="card-title">Detailed Analytics</h4>
+                        <p class="card-text text-muted">Track your performance with detailed charts and progress reports.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-center">
+                        <div class="align-self-center mb-3 text-primary">
+                            <i class="fas fa-mobile-alt fa-3x"></i>
+                        </div>
+                        <h4 class="card-title">Fully Responsive</h4>
+                        <p class="card-text text-muted">Access tests from any device - Mobile, Tablet, or Desktop.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold text-white mb-3">EduTest</h5>
+                    <p class="text-secondary">The best online platform for students to practice MCQs and improve their knowledge.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold text-white mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold text-white mb-3">Contact Us</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li><i class="fas fa-envelope me-2"></i> support@edutest.com</li>
+                        <li><i class="fas fa-phone me-2"></i> +123 456 7890</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> New York, USA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary pt-3 text-center">
+                <p class="mb-0 text-secondary">&copy; 2026 EduTest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
